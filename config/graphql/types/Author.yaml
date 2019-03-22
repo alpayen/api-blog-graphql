@@ -1,0 +1,12 @@
+Author:
+  type: object
+  config:
+    fields:
+      id:
+        type: 'Int!'
+      firstname:
+        type: 'String'
+      lastname:
+        type: 'String'
+      articles:
+        type: '[Article]'
