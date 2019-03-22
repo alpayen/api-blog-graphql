@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a327392-63a6-4441-99a6-239a88454b97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/Article.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/Author.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/Category.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/Comment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/graphql/types/Query.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/graphql/types/Article.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/graphql/types/Query.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -110,6 +118,8 @@
         <option value="$PROJECT_DIR$/config/graphql/types/Category.yaml" />
         <option value="$PROJECT_DIR$/config/graphql/types/Author.yaml" />
         <option value="$PROJECT_DIR$/config/graphql/types/Comment.yaml" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/src/config/graphql/types/Query.yaml" />
       </list>
     </option>
   </component>
@@ -140,25 +150,28 @@
             <path>
               <item name="rest-blog-graphql" type="b2602c69:ProjectViewProjectNode" />
               <item name="rest-blog-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-blog-graphql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-blog-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="graphql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-blog-graphql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-blog-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rest-blog-graphql" type="b2602c69:ProjectViewProjectNode" />
               <item name="rest-blog-graphql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-blog-graphql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-blog-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="graphql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-blog-graphql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-blog-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553267484632</updated>
-      <workItem from="1553267486748" duration="3740000" />
+      <workItem from="1553267486748" duration="4266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3740000" />
+    <option name="totallyTimeSpent" value="4266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,10 +324,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/graphql/types/Article.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/graphql/types/Query.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
