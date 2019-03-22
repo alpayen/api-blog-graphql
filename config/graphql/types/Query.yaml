@@ -10,7 +10,7 @@ Query :
             type: 'Int!'
         resolve: "@=resolver('Article', [args['id']])"
       Articles:
-        type: '[Articles]'
+        type: '[Article]'
         resolve: "@=resolver('Articles')"
       Category:
         type: 'Category'

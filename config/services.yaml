@@ -29,4 +29,4 @@ services:
 
     App\Resolver\:
         resource: '../src/Resolver'
-        tags: 'overblog_graphql.resolver'
+        tags: ['overblog_graphql.resolver']
