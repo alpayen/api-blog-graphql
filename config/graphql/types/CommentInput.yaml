@@ -1,0 +1,8 @@
+CommentInput:
+  type: input-object
+  config:
+    fields:
+      content:
+        type: 'String!'
+      article_id:
+        type: 'Int!'

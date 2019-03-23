@@ -1,0 +1,19 @@
+MutationSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: 'String!'
+
+Mutation:
+  type: object
+  config:
+    fields:
+      NewComment:
+        type: MutationSuccess
+        resolve: "@=mutation('CreateAction', [ args['className'], args['input']])"
+        args:
+          className:
+            type: "String"
+          input:
+            type: CommentInput!

@@ -1,0 +1,29 @@
+{
+
+  Articles{
+    title,
+    author{
+      lastname,
+      firstname
+    },
+    comments{
+      content
+    },
+    category{
+      articles{
+        title,
+        author{
+          lastname
+        }
+      }
+    }
+  }
+
+  Articles{
+    title,
+    author{
+      lastname,
+      firstname
+    }
+  }
+}

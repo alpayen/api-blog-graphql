@@ -30,3 +30,7 @@ services:
     App\Resolver\:
         resource: '../src/Resolver'
         tags: ['overblog_graphql.resolver']
+
+    App\Mutation\:
+        resource: '../src/Mutation'
+        tags: ['overblog_graphql.mutation']
