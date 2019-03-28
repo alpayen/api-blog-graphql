@@ -1,0 +1,8 @@
+AuthorInput:
+  type: input-object
+  config:
+    fields:
+      firstname:
+        type: 'String!'
+      lastname:
+        type: 'String!'

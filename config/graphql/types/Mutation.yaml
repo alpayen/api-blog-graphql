@@ -1,19 +1,107 @@
-MutationSuccess:
-  type: object
-  config:
-    fields:
-      content:
-        type: 'String!'
-
 Mutation:
   type: object
   config:
     fields:
-      NewComment:
-        type: MutationSuccess
-        resolve: "@=mutation('CreateAction', [ args['className'], args['input']])"
+      NewArticle:
+        type: NewArticleSuccess
+        resolve: "@=mutation('CreateAction', [ args['entityName'], args['input']])"
         args:
-          className:
-            type: "String"
+          entityName:
+            type: "String!"
+          input:
+            type: ArticleInput!
+      NewAuthor:
+        type: NewAuthorSuccess
+        resolve: "@=mutation('CreateAction', [ args['entityName'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
+          input:
+            type: AuthorInput!
+      NewCategory:
+        type: NewCategorySuccess
+        resolve: "@=mutation('CreateAction', [ args['entityName'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
+          input:
+            type: CategoryInput!
+      NewComment:
+        type: NewCommentSuccess
+        resolve: "@=mutation('CreateAction', [ args['entityName'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
           input:
             type: CommentInput!
+      UpdateArticle:
+        type: UpdateArticleSuccess
+        resolve: "@=mutation('UpdateAction', [ args['entityName'], args['id'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+          input:
+            type: ArticleInput!
+      UpdateAuthor:
+        type: UpdateAuthorSuccess
+        resolve: "@=mutation('UpdateAction', [ args['entityName'], args['id'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+          input:
+            type: AuthorInput!
+      UpdateCategory:
+        type: UpdatecategorySuccess
+        resolve: "@=mutation('UpdateAction', [ args['entityName'], args['id'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+          input:
+            type: CategoryInput!
+      UpdateComment:
+        type: UpdateCommentSuccess
+        resolve: "@=mutation('UpdateAction', [ args['entityName'], args['id'], args['input']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+      DeleteArticle:
+        type: DeleteArticleSuccess
+        resolve: "@=mutation('DeleteAction', [ args['entityName'], args['id']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+      DeleteAuthor:
+        type: DeleteAuthorSuccess
+        resolve: "@=mutation('DeleteAction', [ args['entityName'], args['id']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+      DeleteCategory:
+        type: DeleteCategorySuccess
+        resolve: "@=mutation('DeleteAction', [ args['entityName'], args['id']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+      DeleteComment:
+        type: DeleteCommentSuccess
+        resolve: "@=mutation('DeleteAction', [ args['entityName'], args['id']])"
+        args:
+          entityName:
+            type: "String!"
+          id:
+            type: "Int"
+

@@ -1,29 +1,94 @@
-{
 
+### Getting content
+{
   Articles{
     title,
-    author{
-      lastname,
-      firstname
-    },
     comments{
       content
     },
     category{
-      articles{
-        title,
-        author{
-          lastname
-        }
-      }
-    }
-  }
-
-  Articles{
-    title,
+      name
+    },
     author{
       lastname,
-      firstname
+      articles{
+        id
+      }
     }
+	}
+}
+
+
+
+mutation NewComment($classNameComment: String!, $comment: CommentInput!){
+  NewComment( entityName: $classNameComment,input : $comment){
+    content
   }
+}
+
+{
+    "classNameComment": "Comment",
+	"comment": {
+     "content": "Contenu ajouter",
+  	"article_id": 3
+  },
+}
+
+mutation NewAuthor($classNameAuthor: String!, $author: AuthorInput!){
+  NewAuthor(entityName : $classNameAuthor,input : $author){
+    content
+  }
+}
+
+mutation NewCategory($classNameCategory: String!, $category: CategoryInput!){
+  Newcategory(entityName : $classNameCategory,input : $category){
+    content
+  }
+}
+
+mutation NewArticle($classNameArticle: String!, $article: ArticleInput!){
+  NewArticle(entityName : $classNameArticle,input : $article){
+    content
+  }
+}
+
+{
+  "classNameAuthor": "Author",
+	"author": {
+    "lastname":"Payen",
+  	"firstname": "Alexandre"
+  },
+
+  "classNameComment": "Comment",
+	"comment": {
+    "content": "Contenu ajouter",
+  	"article_id": 3
+  },
+
+  "classNameCategory": "Category",
+	"category":  {
+    "name": "New Category"
+  },
+
+  "classNameArticle":  "Article",
+	"article": {
+    "title": "New Article title",
+    "content": "New Article Content",
+    "author_id": 1,
+    "category_id": 1
+  }
+
+}
+
+
+
+mutation DeleteArticle($classNameArticle: String!, $id: Int){
+  DeleteArticle(entityName : $classNameArticle,id : $id){
+    content
+  }
+}
+
+{
+  "classNameArticle": "Article",
+	"id":1
 }

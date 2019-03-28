@@ -1,0 +1,72 @@
+NewArticleSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Article
+NewAuthorSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Author
+NewCategorySuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Category
+NewCommentSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Comment
+UpdateArticleSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Article
+UpdateAuthorSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Author
+UpdatecategorySuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Category
+UpdateCommentSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: Comment
+DeleteArticleSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: 'String!'
+DeleteAuthorSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: 'String!'
+DeleteCategorySuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: 'String!'
+DeleteCommentSuccess:
+  type: object
+  config:
+    fields:
+      content:
+        type: 'String!'
