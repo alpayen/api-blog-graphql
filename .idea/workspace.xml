@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a327392-63a6-4441-99a6-239a88454b97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/ArticleInput.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/AuthorInput.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/CategoryInput.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/graphql/types/Sucesses.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mutation/DeleteMutator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mutation/UpdateMutator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/graphql/types/Mutation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/graphql/types/Mutation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mutation/CreateMutator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mutation/CreateMutator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +66,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Mutation/UpdateMutator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-              <folding>
-                <element signature="e#32#55#0#PHP" expanded="true" />
-              </folding>
+        <entry file="das://3e2aa650-c026-4b5f-b2db-c9f135ad43ba/schema/rest-blog-graphql/table/author">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://3e2aa650-c026-4b5f-b2db-c9f135ad43ba/schema/rest-blog-graphql/table/category">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -113,18 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,11 +128,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="1" selection-start-line="22" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="407">
+              <caret line="83" selection-start-line="83" selection-end-line="93" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -406,12 +403,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553267484632</updated>
       <workItem from="1553267486748" duration="12561000" />
-      <workItem from="1553806226853" duration="4951000" />
+      <workItem from="1553806226853" duration="6278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17512000" />
+    <option name="totallyTimeSpent" value="18839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +423,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2002442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2002442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,7 +444,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="4" sideWeight="0.5014881" side_tool="true" weight="0.32967034" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.4985119" visible="true" weight="0.2045177" />
+      <window_info active="true" anchor="right" id="Database" order="5" sideWeight="0.4985119" visible="true" weight="0.14652015" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3e2aa650-c026-4b5f-b2db-c9f135ad43ba/schema/rest-blog-graphql/table/author">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/graphql/types/Article.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -651,16 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mutation/CreateMutator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="e#32#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,20 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="48" column="38" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/graphql/types/Comment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" selection-start-line="22" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -723,11 +689,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/graphql/types/Comment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mutation/CreateMutator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="e#32#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3e2aa650-c026-4b5f-b2db-c9f135ad43ba/schema/rest-blog-graphql/table/author">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3e2aa650-c026-4b5f-b2db-c9f135ad43ba/schema/rest-blog-graphql/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="83" selection-start-line="83" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="240">
-            <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
