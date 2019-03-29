@@ -18,6 +18,7 @@
 > Du coup, je demande pour activer une mutation un paramètre de type String avec lequel je récupère le nom de mon entité,
 > un ID au besoin et un Input du bon type. Ainsi, j'ai pu créer seulement 3 mutations (Create, Update, Delete) qui sont transversalent à tout les objets de l'API.
 
+>Les Mutations Successes renvoient au besoin le type d'entité de la mutation pour récupérer et traiter la data inséerée ou modifiée
 
 ### Pour tester : 
 
