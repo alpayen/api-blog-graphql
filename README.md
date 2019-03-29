@@ -132,6 +132,6 @@ mutation DeleteArticle($classNameArticle: String!, $id: Int){
 ```
 {
   "classNameArticle": "Article",
-	"id":54
+	"id":1
 }
 ```
